@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Xây dựng ứng dụng thực tế học Ruby On Rails Online
 
-Things you may want to cover:
+Tác giả: Trần Văn Thành
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Website: http://tranthanhepu.com
