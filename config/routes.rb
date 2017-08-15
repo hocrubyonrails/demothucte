@@ -1,3 +1,16 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  
+  devise_for :users
+  
+  root 'product#index'  
+
+  get 'admin' => 'admin#index'
+
+  # Login with Facebook
+  get 'auth/:provider/callback', :to => 'product#facebook'
+  get 'auth/failure', :to => 'product#failure'
+
+  # Products
+  resources :product
+
 end
